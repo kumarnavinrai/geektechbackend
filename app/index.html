@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>MEAN Stack User Registration and Login Example Application</title>
+    <title>Geeks Technical Support Backend.</title>
 
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" />
     <link href="app-content/app.css" rel="stylesheet" />
@@ -11,7 +11,14 @@
     <!-- header -->
     <header>
         <ul class="nav nav-tabs">
-            <li ng-class="{active: activeTab === 'home'}"><a ui-sref="home">Home</a></li>
+            <li ng-class="{active: activeTab === 'home'}"><a ui-sref="home">Welcome</a></li>
+            <li ng-class="{active: activeTab === 'geekhome'}"><a ui-sref="geekhome">Home</a></li>
+            <li ng-class="{active: activeTab === 'about'}"><a ui-sref="about">About</a></li>
+            <li ng-class="{active: activeTab === 'services'}"><a ui-sref="services">Services</a></li>
+            <li ng-class="{active: activeTab === 'subscriptions'}"><a ui-sref="subscriptions">Subscriptions</a></li>
+            <!--<li ng-class="{active: activeTab === 'remoteaccess'}"><a ui-sref="remoteaccess">Remote Access</a></li>-->
+            <li ng-class="{active: activeTab === 'testimonials'}"><a ui-sref="testimonials">Testimonials</a></li>
+            <li ng-class="{active: activeTab === 'contact'}"><a ui-sref="contact">Contact</a></li>
             <li ng-class="{active: activeTab === 'account'}"><a ui-sref="account">Account</a></li>
             <li><a href="/login" target="_self">Logout</a></li>
         </ul>
@@ -34,8 +41,15 @@
     <!-- application scripts -->
     <script src="app.js"></script>
     <script src="app-services/user.service.js"></script>
+    <script src="app-services/homepage.service.js"></script>
     <script src="app-services/flash.service.js"></script>
     <script src="home/index.controller.js"></script>
+    <script src="geekhome/index.controller.js"></script>
     <script src="account/index.controller.js"></script>
+    <script src="about/index.controller.js"></script>
+    <script src="services/index.controller.js"></script>
+    <script src="subscriptions/index.controller.js"></script>
+    <script src="testimonials/index.controller.js"></script>
+    <script src="contact/index.controller.js"></script>
 </body>
 </html>

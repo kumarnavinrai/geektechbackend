@@ -1,0 +1,58 @@
+﻿<h1>Welcome to home page</h1>
+<div class="form-container">
+    <form method="post">
+        <div class="form-group">
+            <label for="firstName">First name</label>
+            <input type="text" id="firstName" class="form-control" ng-model="vm.user.firstName" required />
+        </div>
+        <div class="form-group">
+            <label for="lastName">Last name</label>
+            <input type="text" id="lastName" class="form-control" ng-model="vm.user.lastName" required />
+        </div>
+        <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" class="form-control" ng-model="vm.user.username" required />
+        </div>
+        <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" class="form-control" ng-model="vm.user.password" />
+        </div>
+        <div class="form-group">
+            <label for="lefttopcornertext">Geek phone no on all page (Top right corner)<img ng-src="{{vm.leftcornerimg}}"/></label>
+            <input type="text" id="lefttopcornertext" class="form-control" ng-model="vm.homepage.lefttopcornertext" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider one text(Line one)</label>
+            <input type="text" id="slideronetextlineone" class="form-control" ng-model="vm.homepage.slideronetextlineone" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider one text(Line two)</label>
+            <input type="text" id="slideronetextlinetwo" class="form-control" ng-model="vm.homepage.slideronetextlinetwo" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider two text(Line one)</label>
+            <input type="text" id="slidertwotextlineone" class="form-control" ng-model="vm.homepage.slidertwotextlineone" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider two text(Line tow)</label>
+            <input type="text" id="slidertwotextlinetwo" class="form-control" ng-model="vm.homepage.slidertwotextlinetwo" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider three text(Line one)</label>
+            <input type="text" id="sliderthreetextlineone" class="form-control" ng-model="vm.homepage.sliderthreetextlineone" required />
+        </div>
+		<div class="form-group">
+            <label for="slideronetext">Slider three text(Line two)</label>
+            <input type="text" id="sliderthreetextlinetwo" class="form-control" ng-model="vm.homepage.sliderthreetextlinetwo" required />
+        </div>
+		<div class="form-group">
+            <label for="lefttopcornertext">Mid image text (Top and bottom)<img ng-src="{{vm.midbtm}}"/></label>
+            <input type="text" id="lefttopcornertext" class="form-control" ng-model="vm.homepage.lefttopcornertext" required />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-primary" ng-click="vm.saveHomepage()">Save</button>
+            <button class="btn btn-danger" ng-click="vm.deleteUser()">Delete</button>
+        </div>
+    </form>
+</div>

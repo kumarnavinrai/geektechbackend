@@ -18,6 +18,48 @@
                 controllerAs: 'vm',
                 data: { activeTab: 'home' }
             })
+			.state('geekhome', {
+                url: '/',
+                templateUrl: 'geekhome/index.html',
+                controller: 'Geekhome.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'geekhome' }
+            })
+			.state('about', {
+                url: '/',
+                templateUrl: 'about/index.html',
+                controller: 'About.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'about' }
+            })
+			.state('services', {
+                url: '/',
+                templateUrl: 'services/index.html',
+                controller: 'Services.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'services' }
+            }) 
+			.state('subscriptions', {
+                url: '/',
+                templateUrl: 'subscriptions/index.html',
+                controller: 'Subscriptions.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'subscriptions' }
+            })
+			.state('testimonials', {
+                url: '/',
+                templateUrl: 'testimonials/index.html',
+                controller: 'Testimonials.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'testimonials' }
+            })
+			.state('contact', {
+                url: '/',
+                templateUrl: 'contact/index.html',
+                controller: 'Contact.IndexController',
+                controllerAs: 'vm',
+                data: { activeTab: 'contact' }
+            })
             .state('account', {
                 url: '/account',
                 templateUrl: 'account/index.html',
