@@ -1,6 +1,15 @@
-# mean-stack-registration-login-example
+# Rest API in MEAN stack
 
-MEAN Stack User Registration and Login Example Application
+These are rest api written in express frame work for my MEAN stack website
 
-To see a demo and further details go to http://jasonwatmore.com/post/2015/12/09/MEAN-Stack-User-Registration-and-Login-Example.aspx
-# geektechbackend
+## Requirements
+
+- [Node and npm](http://nodejs.org)
+- MongoDB: Make sure you have your own local or remote MongoDB database URI configured in `config/database.js`
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/kumarnavinrai/geekstechnicalsupport.com`
+2. Install the application: `npm install`
+
+Happy codeing!
