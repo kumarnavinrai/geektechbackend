@@ -9,7 +9,7 @@ These are rest api written in express frame work for my MEAN stack website
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/kumarnavinrai/geekstechnicalsupport.com`
+1. Clone the repository: `git clone https://github.com/kumarnavinrai/meanrestapi.com`
 2. Install the application: `npm install`
 
 Happy codeing!
