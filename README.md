@@ -5,7 +5,7 @@ These are rest api written in express frame work for my MEAN stack website
 ## Requirements
 
 - [Node and npm](http://nodejs.org)
-- MongoDB: Make sure you have your own local or remote MongoDB database URI configured in `config/database.js`
+- MongoDB
 
 ## Installation
 
